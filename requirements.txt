@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+huggingface_hub==0.24.6
+numpy
+pillow
+soundfile
+librosa
+pyloudnorm
+einops
+transformers>=4.42.0
+psutil
+packaging
+ninja
+# PyTorch + CUDA 12.1:
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+xformers==0.0.28
+flash-attn==2.7.4.post1
+# Repo-spezifische Abhängigkeiten werden über requirements.txt im geklonten Repo mitinstalliert (siehe Dockerfile)
